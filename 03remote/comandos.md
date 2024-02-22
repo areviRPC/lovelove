@@ -1,0 +1,53 @@
+
+
+# Comandos de git
+
+## Comand to see version of git
+- git -v
+- git --version
+
+## Comand to inicial config of git
+- git config --global user.name "NickName"    
+- git config --global user.name "email"
+
+## Comand to edit or see Git config:
+For exit/ ctrl + 0 and ctrl +  X if it's VIM esc + :wq
+- git --global --edit
+- git config --global --list
+
+## How initialize Git in directory
+
+- git init  
+- --global init.defaultBranch name (to change branch name)
+
+## Cmd to verificate status of files
+- git status
+
+## Cmd for change version
+- git checkout <Id o name of Branch>
+
+## Steps for create a version of our code
+1. Add all files to commit
+- git add .
+- git add *.js
+- git add styles.css
+
+2. Take a photo of code (Create a new version)
+- git commit -m "Name of Commit" -> Maximun of 50 words recommended
+
+## Cmd to list version of my projects
+- git log
+- git log --oneline
+
+# para hacer una conexion remota
+
+git remote add --origin link.del.repositorio
+(antes se debe esta blecer la conexion con git config --global user.name etc)
+
+# para listar conexiones remotas
+
+git remote -v
+
+# para eliminar conexion remota
+
+# para traer informaicon remota 
