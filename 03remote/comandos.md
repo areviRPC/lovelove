@@ -13,7 +13,8 @@ git remote -v
 git fetch origin main
 
 # para eliminar conexion remota
-        git remote remove origin 
+
+git remote remove origin 
 
 # para traer informaicon remota 
 
